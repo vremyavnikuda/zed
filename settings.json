@@ -1,0 +1,118 @@
+{
+  "ui_font_family": "Hack",
+  "ui_font_size": 15.4,
+  "buffer_font_size": 15.4,
+  "theme": {
+    "mode": "dark",
+    "light": "Atelier Cave Dark",
+    "dark": "Summercamp"
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  "buffer_font_features": {
+    "cv01": 7
+  },
+  "cursor_blink": false,
+  "current_line_highlight": "all",
+  "scrollbar": {
+    "show": "never",
+    "cursors": true,
+    "git_diff": true,
+    "search_results": true,
+    "selected_symbol": true,
+    "diagnostics": true
+  },
+  "search_results": true,
+  "selected_symbol": true,
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": true
+  },
+  "show_nav_history_buttons": true,
+  "tabs": {
+    "close_position": "left",
+    "file_icons": false,
+    "git_status": false
+  },
+  "git": {
+    "git_gutter": "tracked_files",
+    "inline_blame": { "enabled": true }
+  },
+  "enable_language_server": true,
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "check": {
+          "command": "clippy"
+        }
+      }
+    }
+  },
+  "use_autoclose": true,
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "edit_debounce_ms": 700,
+    "scroll_debounce_ms": 50
+  },
+  "inlayHints": {
+    "maxLength": null,
+    "lifetimeElisionHints": {
+      "useParameterNames": true,
+      "enable": "skip_trivial"
+    },
+    "closureReturnTypeHints": {
+      "enable": "always"
+    }
+  },
+  "hour_format": "hour24",
+  "preview_tabs": {
+    "enabled": true,
+    "enable_preview_from_file_finder": true,
+    "enable_preview_from_code_navigation": true
+  },
+  "soft_wrap": "editor_width",
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true
+  },
+  "terminal": {
+    "alternate_scroll": "on",
+    "blinking": "off",
+    "copy_on_select": true,
+    "dock": "bottom",
+    "env": {},
+    "font_family": "Hack",
+    "font_features": {
+      "calt": true
+    },
+    "font_size": 14,
+    "line_height": "comfortable",
+    "option_as_meta": true,
+    "button": true,
+    "shell": "system",
+    "toolbar": {
+      "title": true
+    },
+    "working_directory": "current_project_directory"
+  },
+  "project_panel": {
+    "button": true,
+    "default_width": 240,
+    "dock": "left",
+    "file_icons": true,
+    "folder_icons": true,
+    "git_status": true,
+    "indent_size": 20,
+    "auto_reveal_entries": true,
+    "auto_fold_dirs": true,
+    "scrollbar": {
+      "show": "always"
+    }
+  }
+}
